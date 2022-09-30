@@ -1,3 +1,6 @@
+# 该工具已经废弃
+新的替代工具: https://github.com/aliyunmaker/ldap2scim
+
 # 配置文件
 
 ```properties
