@@ -1,7 +1,7 @@
 # 该工具已经废弃
 新的替代工具: https://github.com/aliyunmaker/ldap2scim
 
-# 配置文件
+# ~~配置文件~~
 
 ```properties
 key_aliyun_cloudsso = cloud_sso_key
@@ -31,7 +31,7 @@ ldap_attr_username = userPrincipalName
 
 
 
-# 启动(springboot)
+# ~~启动(springboot)~~
 代码启动: main class: `ldap2cloudsso.Ldap2cloudssoApplication`
 
 jar包启动: java -jar ldap2cloudsso.jar
@@ -40,13 +40,13 @@ jar包启动: java -jar ldap2cloudsso.jar
 
 
 
-# 打包
+# ~~打包~~
 
 `mvn clean package -Dmaven.test.skip=true`
 
 
 
-# LDAP搜索
+# ~~LDAP搜索~~
 
 ![screenshot1](image/screenshot1.png)
 
